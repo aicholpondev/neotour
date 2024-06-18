@@ -1,0 +1,4 @@
+.detail-background{
+    background:url("../../assets/image/detail-img.png") no-repeat center/cover;
+    min-height: 60vh;
+}
