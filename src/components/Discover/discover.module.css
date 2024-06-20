@@ -5,6 +5,7 @@
     font-size: 48px;
     padding-left:50px ;
 }
+
 .discover_category {
     padding: 10px;
     margin: 10px;
@@ -30,5 +31,17 @@
     background-color: #6A62B7;
     box-shadow: 0 4px 4px #00000040;
     border-radius: 50%;
+}
+.discover_click{
+    margin: 0 20px 0 0 ;
+    padding: 15px 15px;
+    font-size: 20px;
+    color: black;
+    border-radius: 50%;
+    border: 2px solid #6A62B7;
+}
+.discover_click:hover{
+    color: white;
+    background: #6A62B7;
 }
 

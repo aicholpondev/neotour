@@ -19,8 +19,9 @@ export default function Discover (){
                       <h3 className={styles.discover_category}>Asia</h3>
                   </div>
                   <div className="flex items-center gap-2 ">
-                      <FaArrowRightLong />
-                      <FaArrowLeftLong />
+                      <button className={styles.discover_click}><FaArrowRightLong /></button>
+                      <button className={styles.discover_click}> <FaArrowLeftLong /></button>
+
                   </div>
               </div>
 
