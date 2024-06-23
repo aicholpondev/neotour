@@ -2,7 +2,7 @@ import './App.css';
 import HeaderCard from "./components/HeaderCard/HeaderCard";
 import Discover from "./components/Discover/Discover";
 import Recommended from "./components/Recommended/Recommended";
-import Details from "./pages/Details/Details";
+// import Details from "./pages/Details/Details";
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
     <HeaderCard/>
       <Discover/>
       <Recommended/>
-      <Details/>
+      {/*<Details/>*/}
     </div>
   );
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./headercard.css";
+import  "../HeaderCard/headercard.css"
 import { FaArrowRightLong } from "react-icons/fa6";
 import img from "../../assets/image/winter-header.png";
 export default function HeaderCard(){

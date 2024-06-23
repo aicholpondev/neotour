@@ -1,12 +1,20 @@
 import styles from "./discover.module.css";
-import React from "react";
-import Slider from "react-slick";
+import React, {useEffect,useState} from "react";
 import img from "../../assets/image/discover-img.png";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { FaArrowLeftLong } from "react-icons/fa6";
+import axios from "axios";
 
 export default function Discover (){
+    const [discover,setDiscover] = useState()
 
+    useEffect(() =>{
+        axios('http://localhost:4000/users')
+            .then(({data}) =>{
+                setDiscover(data)
+            })
+    },[])
+    console.log(discover)
     return (
            <section id="discover-general">
                <h1 className={styles.title} >Discover</h1>
